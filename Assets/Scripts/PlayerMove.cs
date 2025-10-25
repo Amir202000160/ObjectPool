@@ -42,7 +42,7 @@ public class PlayerMove : MonoBehaviour
     public void Fire()
     {
         PooledObject projectile = ProjectiledObject.GetPooledObject();
-        projectile.transform.position = transform.position + new Vector3(0, 1, 0);
+        projectile.transform.position = transform.position;
       // ProjectiledObject.GetPooledObject();
     }
 

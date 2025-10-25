@@ -11,7 +11,7 @@ public class PooledObject : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.z > 10.0f)
+        if (transform.position.z > 20.0f)
         {
             Release();
         }
